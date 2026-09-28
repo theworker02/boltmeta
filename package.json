@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/boltmeta",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bolt filesystem meta paths across POSIX and Windows conventions.",
+  "bin": {
+    "boltmeta": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/boltmeta.git"
+  },
+  "homepage": "https://theworker02.github.io/boltmeta/",
+  "keywords": [
+    "bolt",
+    "meta",
+    "path",
+    "cli",
+    "toolkit"
+  ]
+}
